@@ -1,0 +1,53 @@
+<div >
+<h1>welcome to cart page</h1>
+<div class="container"  >
+<table class="table" >
+<thead>
+	<tr>
+	<th>Name</th>
+	<th>Quantity</th>
+	<th>Price</th>
+	<th>SubTotal</th>
+	</tr>
+</thead>
+<tbody >
+<tr  ng-repeat=" item in cart">
+
+	<td>{{item.itemname}}</td>
+	<td> 
+	<button type="button" class="btn btn-success btn-xs" min="1"ng-click="add($index,item.itemname,item.quantity)">+</button>{{item.quantity}}
+	<button type="button" class="btn btn-danger btn-xs" min="1"ng-click="minus($index,item.itemname,item.quantity)">-</button></td>
+	<td>{{item.price| currency}}</td>
+	<td>{{item.itemprice | currency}}</td>
+	
+		
+</tr>
+<tr>
+	<td><b>Subtotal</b></td>
+	<td>-</td>
+	<td>-</td>
+	<td>{{take2|currency}}</td>
+	
+</tr>
+<tr>
+	<td><b>Tax</b></td>
+	<td>-</td>
+	<td>10%</td>
+	<td>{{take2 * 0.1 | currency}}</td>
+</tr>
+<tr>
+	<td><b>Total</b></td>
+	<td>-</td>
+	<td>-</td>
+	<td >{{take2 * 1.1 | currency}}</td>
+</tr>
+</tbody>
+</table>
+
+									
+						
+					</div>
+
+		
+						</div>
+								

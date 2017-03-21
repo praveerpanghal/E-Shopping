@@ -1,0 +1,46 @@
+#mendiv{
+	
+	height:350px;
+	width:20%;
+	min-width:200px;
+
+float:left;
+margin-left:5%;
+background-color:yellow;
+}
+#addbutton
+{
+	margin-left:60%;
+margin-top:-15%;
+height:10%;
+
+}
+#removebutton
+{
+	margin-left:60%;
+margin-top:-15%;
+height:10%;
+}
+#content
+{
+	font-style:italic;
+color:red;
+position:relative;
+height:10%;
+}
+#name
+{ 
+font-size:160%;
+position:relative
+}
+#price
+{position:relative;
+height:10%;
+}
+#image
+{
+	height:60%;
+width:60%;
+padding-left:10%;
+position:relative
+}

@@ -1,0 +1,39 @@
+#div1{
+	
+	height:200px;
+	width:50%;
+border:  solid black;
+margin-left:3%;
+background-color:black;
+float:left;
+}
+#sidepara
+{
+	
+	font-size:300%;
+	padding-left: 70%
+}
+#introduce{font-size:200%;
+	height:200px;
+	width:100%;
+	margin-top: 5%
+}
+#signin{
+	
+	height:100px;
+	width:100%;
+border:  solid black;
+
+background-color:black;
+}
+#signup{
+	float:left;
+
+	color:white;
+}
+#text{margin-top:2%;
+margin-left: 4%;
+width:20%;
+height:30%;}
+#imagediv{margin-bottom:2%;
+	margin-top:-5%}
